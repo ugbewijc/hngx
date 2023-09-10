@@ -25,8 +25,8 @@ app.get('/api', (req, res) => {
     current_day: currentDay,
     utc_time: currentUTC,
     track,
-    github_file_url: 'https://github.com/ugbewijc/stage-one/blob/main/app.js',
-    github_repo_url: 'https://github.com/ugbewijc/stage-one',
+    github_file_url: 'https://github.com/ugbewijc/hngx/blob/master/stage-one/app.js',
+    github_repo_url: 'https://github.com/ugbewijc/hngx',
     status_code: 200,
   };
 
