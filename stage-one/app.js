@@ -31,11 +31,15 @@ app.get('/api', (req, res) => {
   };
 
   res.json(response);
+  res.end();
 });
 
 /*
  * Start the server
  */
-app.listen(port, () => {
+
+/*app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
-});
+});*/
+
+module.exports = app;

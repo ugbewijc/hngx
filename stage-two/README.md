@@ -1,17 +1,17 @@
 ## Stage Two Task
-<br/>
+<br>
 Build a simple REST API capable of CRUD operations on a "person" resource, interfacing with any database of your choice. Your API should dynamically handle parameters, such as adding or retrieving a person by name. Accompany the development with UML diagrams to represent your system's design and database structure.  Host your entire project on GitHub, and provide a well-structured documentation in the repository that outlines request/response formats, setup instructions, and sample API usage.
 #### Task Breakdown:
 Develop a REST API with Basic CRUD Operation
-<br/>
+<br>
 #### Objective:
 Build a simple REST API capable of CRUD operations on a resource, say, a "person". The chosen programming language should interface with any chosen database of your choice.
 - **REST API Development:**
 Develop an API with endpoints for:
-    - ***CREATE:*** Adding a new person.  =>/api
-    - ***READ:*** Fetching details of a person.  => /api/user_id
-    - ***UPDATE:*** Modifying details of an existing person => /api/user_id
-    - ***DELETE:*** Removing a person => /api/user_id
+    - **CREATE:*** Adding a new person.  =>/api
+    - **READ:*** Fetching details of a person.  => /api/user_id
+    - **UPDATE:*** Modifying details of an existing person => /api/user_id
+    - **DELETE:*** Removing a person => /api/user_id
 
   Ensure all interactions with the database are secure and free from common vulnerabilities (e.g., SQL injections).
 - **Database Modelling: (Bonus)**
@@ -46,8 +46,7 @@ Test extensively with various testing tools to make sure it is accessible before
 #### Acceptance Criteria
 - **Functional REST API:** The API should successfully perform all CRUD operations.
 - **Modelling Diagrams:** Clear and accurate UML and E-R diagrams should be provided.
-**Effective Testing Script:** The script should successfully test all the CRUD operations without manual intervention.
-**Dynamic Parameter Handling:** The API should correctly handle and respond to different parameters provided.
-**GitHub Repository:** Repository should be well-organized, contain all necessary files, and be publicly accessible.
-**Detailed Documentation:** Documentation should provide clear guidance on how to use the API, including setup, request/response formats, and sample usage.
-Submission Mode
+- **Effective Testing Script:** The script should successfully test all the CRUD operations without manual intervention.
+- **Dynamic Parameter Handling:** The API should correctly handle and respond to different parameters provided.
+- **GitHub Repository:** Repository should be well-organized, contain all necessary files, and be publicly accessible.
+- **Detailed Documentation:** Documentation should provide clear guidance on how to use the API, including setup, request/response formats, and sample usage.
