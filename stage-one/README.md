@@ -1,6 +1,4 @@
 ## Backend Stage One Task
-<br>
-<br>
 #### Objective
 
 Create and host an endpoint using any programming language of your choice.
@@ -17,7 +15,6 @@ The information required includes:
 - A  Status Code of Success
 
 ###### Expected response:
-<br>
 ```JSON
 {
   "slack_name": "example_name",
@@ -31,7 +28,6 @@ The information required includes:
 ```
 
 ###### Acceptance Criteria
-<br>
 - Endpoint Creation: Provide a publicly accessible endpoint. Your backend api endpoint should only point to /api 
 - GET Parameters: The endpoint should accept two GET request query parameters: slack_name and track.
     - E.g.: http://example.com/api?slack_name=example_name&track=backend.
